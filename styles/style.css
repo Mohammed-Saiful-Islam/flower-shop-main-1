@@ -214,21 +214,23 @@ header,
     margin-bottom: 100px;
 }
 
-#newsletter{
+#newsletter {
     margin: 100px 0;
 }
 
-.newsletter-main{
+.newsletter-main {
     background-image: url(../images/Rectangle\ 9.png);
     padding: 100px 0;
 }
-#newsletter form{
+
+#newsletter form {
     max-width: 600px;
     margin: 20px auto;
     display: flex;
     gap: 10px;
 }
-#newsletter form input{
+
+#newsletter form input {
     flex-grow: 1;
     border: none;
     border-radius: 3px;
@@ -236,4 +238,3 @@ header,
     font-size: 20px;
     outline: 1px solid green;
 }
- 
