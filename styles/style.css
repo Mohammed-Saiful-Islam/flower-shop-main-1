@@ -238,3 +238,25 @@ header,
     font-size: 20px;
     outline: 1px solid green;
 }
+
+footer {
+    background: #111010;
+    padding: 50px;
+}
+
+footer .section-heading h2 {
+    color: #E55473;
+}
+
+footer .section-heading h2 span {
+    color: #FFF;
+}
+
+footer .section-heading p {
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 20px;
+}
+
+footer .section-heading .footer-foot-p {
+    color: rgba(255, 255, 255, 0.40);
+}
