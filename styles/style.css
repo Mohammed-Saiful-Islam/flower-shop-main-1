@@ -163,7 +163,7 @@ header,
 }
 
 
-    
+
 .hot-deal-main {
     display: flex;
     align-items: center;
@@ -198,21 +198,42 @@ header,
     max-width: 300px;
 }
 
-#hot-deal{
+#hot-deal {
     margin-bottom: 100px;
 }
 
-
-
-.instagram-section-content{
+.instagram-section-content {
     display: flex;
-
 }
-.instagram-section-content img{
+
+.instagram-section-content img {
     width: 96%;
-    
 }
 
-#instagram{
+#instagram {
     margin-bottom: 100px;
 }
+
+#newsletter{
+    margin: 100px 0;
+}
+
+.newsletter-main{
+    background-image: url(../images/Rectangle\ 9.png);
+    padding: 100px 0;
+}
+#newsletter form{
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    outline: 1px solid green;
+}
+ 
